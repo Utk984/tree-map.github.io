@@ -15,6 +15,7 @@ from typing import Optional, Dict, Any, List, Tuple
 from PIL import Image
 import pycocotools.mask as maskUtils
 from utils import map_perspective_point_to_original
+import config
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -236,7 +237,7 @@ class MaskProcessor:
             Mask data dictionary or None if not found
         """
         try:
-            mask_file_path = Path("masks") / f"{pano_id}_masks.json"
+            mask_file_path = config.get_mask_file_path(pano_id)
             if mask_file_path.exists():
                 with open(mask_file_path, 'r') as f:
                     mask_data = json.load(f)

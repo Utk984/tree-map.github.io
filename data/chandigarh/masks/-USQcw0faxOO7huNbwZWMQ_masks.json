@@ -1,0 +1,140 @@
+{
+  "pano_id": "-USQcw0faxOO7huNbwZWMQ",
+  "views": {
+    "view_1": [
+      {
+        "tree_index": "0-0",
+        "image_path": "/home/utkarsh/TreeInventorization/data/views/-USQcw0faxOO7huNbwZWMQ_view1_tree0_box0.jpg",
+        "confidence": 0.31318944692611694,
+        "mask_data": {
+          "orig_shape": [
+            720,
+            1024
+          ],
+          "encoding": "rle",
+          "rle": {
+            "size": [
+              720,
+              1024
+            ],
+            "counts": "Y[P41_f01O1N101O1O1O1O1O100O001O11OO1O1O1O10O101O00O1O10O1O010000O10000O001000O1O0100O10000O100000000000000O0100000O0100000O01O1O3NO1O10O1O00001O3Mlem`0"
+          },
+          "bbox": [
+            182.39999389648438,
+            392.0,
+            252.8000030517578,
+            444.79998779296875
+          ]
+        }
+      },
+      {
+        "tree_index": "1-0",
+        "image_path": "/home/utkarsh/TreeInventorization/data/views/-USQcw0faxOO7huNbwZWMQ_view1_tree0_box1.jpg",
+        "confidence": 0.15262986719608307,
+        "mask_data": {
+          "orig_shape": [
+            720,
+            1024
+          ],
+          "encoding": "rle",
+          "rle": {
+            "size": [
+              720,
+              1024
+            ],
+            "counts": "hWj6\\4Tb000000000000000000000000000000000000000000000I7O1N2O1SNR2\\O`0N2E;K5N1000000000oPk>"
+          },
+          "bbox": [
+            310.3999938964844,
+            280.0,
+            347.20001220703125,
+            419.20001220703125
+          ]
+        }
+      },
+      {
+        "tree_index": "2-0",
+        "image_path": "/home/utkarsh/TreeInventorization/data/views/-USQcw0faxOO7huNbwZWMQ_view1_tree0_box2.jpg",
+        "confidence": 0.14435823261737823,
+        "mask_data": {
+          "orig_shape": [
+            720,
+            1024
+          ],
+          "encoding": "rle",
+          "rle": {
+            "size": [
+              720,
+              1024
+            ],
+            "counts": "[Pk4d0le00000000000001O1O000000001O1O3M4L1O7I1O5K4L005K4L1O1O1O1O1O1O1O1O1O1O000000dNk[O<Vd0Cl[O;ee0XOmSh`0"
+          },
+          "bbox": [
+            220.8000030517578,
+            331.20001220703125,
+            260.79998779296875,
+            398.3999938964844
+          ]
+        }
+      }
+    ],
+    "view_8": [
+      {
+        "tree_index": "3-0",
+        "image_path": "/home/utkarsh/TreeInventorization/data/views/-USQcw0faxOO7huNbwZWMQ_view8_tree0_box0.jpg",
+        "confidence": 0.4224590063095093,
+        "mask_data": {
+          "orig_shape": [
+            720,
+            1024
+          ],
+          "encoding": "rle",
+          "rle": {
+            "size": [
+              720,
+              1024
+            ],
+            "counts": "aRZ<c0l0W1[b0iNe]OW1[b0iNe]OW1[b0iNe]OW1[b0iNe]OW1[b0iNd]OY1[b0_1O00001O1O6J000000J6O100O1O1O100O1O1O1K5VOj0O1XOh0D<O1L4O1M3N2O1M3M3O1O1O1O1N2O1O1000000000_hR9"
+          },
+          "bbox": [
+            560.0,
+            337.6000061035156,
+            609.5999755859375,
+            451.20001220703125
+          ]
+        }
+      }
+    ],
+    "view_11": [
+      {
+        "tree_index": "4-0",
+        "image_path": "/home/utkarsh/TreeInventorization/data/views/-USQcw0faxOO7huNbwZWMQ_view11_tree0_box1.jpg",
+        "confidence": 0.11689262092113495,
+        "mask_data": {
+          "orig_shape": [
+            720,
+            1024
+          ],
+          "encoding": "rle",
+          "rle": {
+            "size": [
+              720,
+              1024
+            ],
+            "counts": "Xm\\6e0ke00000000000000000001O1O00000000000000001O14K2N1O010O001O1O000100O010000000O1O00001O01O01O1O2N1O1O1O00001O1O1N2N1O2O1N2N2Ca0KQ1oN1O5K0000O1000d\\OWMQc0i2n\\OXMRc0i2l\\OXMTc0i2j\\OXMVc0Q300000D<O1_Oa0M3O1N2O1O1M3O1N2O1N2O1N2O10000N2H8O1K5M3O1O1O1O1O1O1O1N2O10000O1O1O1M3O1O1000000O1O10000O10000O1O1O1LleW="
+          },
+          "bbox": [
+            291.20001220703125,
+            312.0,
+            420.79998779296875,
+            414.3999938964844
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "total_views": 3,
+    "total_masks": 5
+  }
+}

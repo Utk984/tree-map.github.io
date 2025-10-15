@@ -1,0 +1,63 @@
+{
+  "pano_id": "V8J8TpwPIGxzG-wnocvWhA",
+  "views": {
+    "view_1": [
+      {
+        "tree_index": "0-0",
+        "image_path": "/home/utkarsh/TreeInventorization/data/views/V8J8TpwPIGxzG-wnocvWhA_view1_tree0_box0.jpg",
+        "confidence": 0.5457127690315247,
+        "mask_data": {
+          "orig_shape": [
+            720,
+            1024
+          ],
+          "encoding": "rle",
+          "rle": {
+            "size": [
+              720,
+              1024
+            ],
+            "counts": "dbW78T24da0L\\^O4da0L\\^O4da0L\\^O4da0L\\^O4da0L\\^O4da0M\\^O2da0O\\^O0da04X^OMga04Y^OLfa09V^OGia0;U^OEka0<U^OCka0=V^OBja0?U^OBja0b0R^O_Oma0c0S^O[Oma0f0R^O[Oma0j0n]OWOQb0k0n]OUOQb0l0n]OTORb0n0l]OROTb0o0l]OPOTb0V1g]OjNXb0[1c]OeN]b0[1c]OeN]b0^1a]ObNhb0W1U]OjNlb0U1S]OkNnb0V1P]OjNSc0T1m\\OkNTc0X1i\\OgNXc0Y1g\\OgN[c0X1c\\OjN]c0Z1]\\OhNic0l12N103L1O4M3M004K2O001O004L1O003OOO0O4M021ON0020O0O03ON0e0[O8G1O5K4L0O9H003N02N0000N2O1N1H8M3O2N2NO1ON40OI7KJ;_O=4hN^M`^OU2Qb0lMn]On1Pb0\\11hNk]OSNoa0T2S^OjMna0Q2b^O_Mca0]2Z1O1cM\\\\Oj1]d0I1O2L4N10000000e^l<"
+          },
+          "bbox": [
+            329.6000061035156,
+            260.79998779296875,
+            436.79998779296875,
+            454.3999938964844
+          ]
+        }
+      }
+    ],
+    "view_7": [
+      {
+        "tree_index": "1-0",
+        "image_path": "/home/utkarsh/TreeInventorization/data/views/V8J8TpwPIGxzG-wnocvWhA_view7_tree0_box0.jpg",
+        "confidence": 0.18980859220027924,
+        "mask_data": {
+          "orig_shape": [
+            720,
+            1024
+          ],
+          "encoding": "rle",
+          "rle": {
+            "size": [
+              720,
+              1024
+            ],
+            "counts": "ahT=l0de00000000000001O1O1O1O1O001O1O00001O1O1O1O1O001O1O1O1O1O1O1O2N1O1O1O1O3M003M1O1O1O1O2N1O2N1O3M003M00R1nN3M1O1O7I0000000000PNV^OQOSb0n0o]OPORb0k0^^OiNca0V1l1O1N2O1O1O1O1M3M3O1N2O1O1N2O1O1000000O100O1O1O1O1O10000N20000000000000000000_`S7"
+          },
+          "bbox": [
+            598.4000244140625,
+            305.6000061035156,
+            699.2000122070312,
+            425.6000061035156
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "total_views": 2,
+    "total_masks": 2
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "pano_id": "UtD9g42NdoRMaq3pzJ8czw",
+  "views": {
+    "view_0": [
+      {
+        "tree_index": "0-0",
+        "image_path": "/home/utkarsh/TreeInventorization/data/views/UtD9g42NdoRMaq3pzJ8czw_view0_tree0_box1.jpg",
+        "confidence": 0.1284596174955368,
+        "mask_data": {
+          "orig_shape": [
+            720,
+            1024
+          ],
+          "encoding": "rle",
+          "rle": {
+            "size": [
+              720,
+              1024
+            ],
+            "counts": "nXo5^2g:P1VKPOj4P1VKPOj4P1VKPOj4P1VKPOj4P1VKPOj4P1VKPOj4P1WKoNh4R1YKnNe4S1[KmNe4S1[KnNc4S1^KmN`4T1_KnN_4S1`KoN_4Q1`KQO_4o0`KSO_4m0^KWO`4j0^K[O^4f0aK\\O^4d0aK^O^4b0bK^O^4b0bK_O]4a0cK@\\4`0cKB\\4>cKD\\4<dKEZ4<fKEY4;fKGY49gKIW47hKKW45iKMU43jKOU41hK6S4KlK7R4JmK8R4HkK>R4BmK`0R4@nKa0Q4_OoKb0P4^OPLc0o3]OQLe0m3[OSLf0k3[OULf0j3ZOVLg0h3ZOXLh0e3YO[Lh0d3XO\\Li0c3WO]Lj0a3WO`Li0^3XObLYLjJZ4`8^OgLULkJ]4]8_OiLRLkJi4Q8VOZMn0b2RO^Mo0a2QO_MS1]2mNdMR1\\2nNeMT1X2lNhMU1W2kNiMV1V2jNjMY1R2hNnM[1o1eNQN\\1n1dNSN[1m1eNSN\\1l1dNTN_1h1bNWN`1g1aNYNa1e1_N[Nb1c1_N\\Nd1a1]N^Ne1a1[NWNn1h1RNWNo1i1QNVNP2j1PNUNQ2j1PNVNP2j1PNVNQ2i1oMVNR2i1oMVNS2h1nMWNT2f1nMYNS2f1nMYNS2f1nMYNT2e1mM[NT2d1lM\\NU2c1kM]NU2b1lM^NU2a1kM_NV2`1jM`NW2^1jMbNW2\\1jMdNW2[1iMeNX2Y1iMgNX2W1iMiNX2U1iMkNX2S1iMmNX2n0lMROT2m0mMSOS2l0nMTOS2j0nMVOS2i0mMWOT2h0lMXOU2g0kMYOV2e0kM[OV2c0kM]OV2b0jM^OW2a0iM_OX2?iMAX2>hMBY2<hMDY2:hMFY29gMGZ28fMH[27eMI\\25eMK^22bMN_21aMO`20`M0c2N\\M2d2O[M1h2MWM3j2LVM4n2HRM8o2GQM9P3FPM:S3CmL=T3BlL>U3AkL?U3AkL?V3@jL`0Z3]OeLc0_3YOaLg0_3ZO`Lf0e3VOZLj0l3POTLP1m3oNSLQ1i4SNWKm1i4SNWKm1n4nMRKR2R5jMnJV2S5iMmJW2W5eMiJ[2X5dMhJ\\2`0]KROV2>]2?_KUOQ2<`2>cKTOl1>a2=eKVOh1=c2<kKSOa1a0d2;PLQO[1d0e2:RLROX1d0f28WLQOS1g0f27ZLQOo0h0g26\\LROl0h0h24aLROf0j0i23cLSOc0j0j22hLPO>n0j20mLPO7Q1l2NoLQO3R1n2KWMmNKX1n2J\\MkNE[1o2I^MlNB[1P3GbMlN^O]1P3FdMlN\\O^1P3EfMnNWO^1S3DgMnNTO_1U3ChMnNQO`1W3AlMlNlNd1X3@mMlNiNe1Z3_OnMlNdNh1^3\\OPNkNaNi1_3\\OQNjN]Nm1b3WOVNjNVNP2d3VOYNhNQNS2f3UOZNmNgMQ2o3PO]NlMhLSO;T4`4mN^NgMoLUO2W4a4mN_NeMPMXOKY4f4jNaN^MTM_OCZ4h4hNcN]MTM[5Y4XMfNTMXMnNXOR6j4lMgN]LnMCdNR6g4nMhN[LoMCdNS6e4oMiNVLkNf5\\2TNjNTLnNe5X2WNkNRLoNf5V2XNlNPLPOg5T2YNmNnKQOh5R2jJSKb2k3kLQOh5Q2RJUK3a0T3X3oLSOf5o1SJWK2a0V3U3nLVOf5Y3SMcMPMZOl5W3PMk0m2VORMj0n2\\OlLe0S3\\OlLe0S3^OjLe0S3]OlLe0Q3\\OoLd0P3_OmLb0R3_OmLc0Q3^OnLc0Q3_OlLe0Q3\\OmLf0R3[OmLf0R3[OlLi0Q3XOmLj0R3VOmLl0R3UOiLR1T3oNkLQ1U3QOhLQ1W3POgLR1X3oNdLW1Y3kNdLZ1X3gNeL\\1Z3eNdLb1V3^NhLf1V3ZNiLh1V3YN\\LeHZOW9W4UN]LfHZOW9X4TNkKj2T4VMlKj2T4VMlKj2T4VMlKj2T4VMlKj2T4VMlKj2T4Pic;"
+          },
+          "bbox": [
+            272.0,
+            0.0,
+            494.3999938964844,
+            560.0
+          ]
+        }
+      }
+    ],
+    "view_5": [
+      {
+        "tree_index": "1-0",
+        "image_path": "/home/utkarsh/TreeInventorization/data/views/UtD9g42NdoRMaq3pzJ8czw_view5_tree0_box0.jpg",
+        "confidence": 0.37457016110420227,
+        "mask_data": {
+          "orig_shape": [
+            720,
+            1024
+          ],
+          "encoding": "rle",
+          "rle": {
+            "size": [
+              720,
+              1024
+            ],
+            "counts": "d]m9c0e1[1e`0eN[_O[1e`0eN[_O[1e`0eN[_O[1e`0eN[_O[1e`0eN[_O[1e`0fNV_O^1j`0cNT_OW1Sa0lN\\^Oa1ea0eNh]Of1Zb0[Ne]Oc1]b0W11N2O1N2O1N2O10000O1O10000O100M3O1N2O1E;C=O1TOl0I7O1M3O1L4K5O1EgQe;"
+          },
+          "bbox": [
+            451.20001220703125,
+            324.79998779296875,
+            492.79998779296875,
+            457.6000061035156
+          ]
+        }
+      }
+    ],
+    "view_11": [
+      {
+        "tree_index": "2-0",
+        "image_path": "/home/utkarsh/TreeInventorization/data/views/UtD9g42NdoRMaq3pzJ8czw_view11_tree0_box1.jpg",
+        "confidence": 0.1596689671278,
+        "mask_data": {
+          "orig_shape": [
+            720,
+            1024
+          ],
+          "encoding": "rle",
+          "rle": {
+            "size": [
+              720,
+              1024
+            ],
+            "counts": "XVg<a1Z9P6jJPJV5P6jJPJV5P6jJPJV5P6jJPJV5P6jJPJV5P6jJPJV5P6jJQJT5P6lJQJR5P6nJPJR5P6nJQJQ5o5oJTJn4l5RKUJm4k5SKWJk4i5UKXJi4i5WKXJh4h5XK\\Jd4d5\\K^Jb4b5^K_Ja4a5_KaJ_4_5aKbJ]4_5cKdJY4]5gKgJU4Y5kKhJS4Y5mKWKb3j4^L]K[3c4eL^KZ3b4fLaKW3_4iLaKW3_4iLdKS3]4mLfKP3Z4PMgKn2Z4RMgKl2Z4TMgKk2Y4UMhKj2X4VMiKh2X4XMhKh2X4XMhKh2X4XMiKe2Y4[MgKd2Z4\\MfKc2[4]MgKa2Y4_MhK`2X4`MiK^2X4bMhK^2X4bMhK^2X4bMiK]2W4cMiK]2W4cMjK[2W4eMjKY2W4gMiKY2W4gMiKY2W4gMjKX2V4hMkKW2U4iMlKU2U4kMlKS2U4mMlKQ2U4oMkKP2V4PNjKo1W4QNjKk1Y4UNgKk1Y4UNgKj1Z4VNgKi1Y4WNiKg1W4YNjKf1V4ZNkKe1U4[NkKd1V4\\NjKc1W4]NjKb1V4^NkKa1U4_NlK`1T4`NmK_1S4aNnK^1R4bNoK]1Q4cNPL\\1P4dNQL[1o3eNRLZ1n3fNSLY1m3gNTLX1l3hNULW1k3iNVLV1j3jNWLU1i3kNXLT1h3lNYLS1g3mNZLR1f3nN]Lo0c3QOaLk0_3UObLj0^3VOeLg0[3YOgLe0Y3[OhLe0W3[OjLe0U3[OlLd0T3\\OnLb0R3^OoLa0Q3_OPM`0P3@TM<l2DVM:j2FWM9i2GYM7g2IZM6f2J`M0`20UN\\Oj1d0VN]Oi1c0_NVO`1j0iNnNV1R1kNnNT1R1ROiNm0W1SOiNm0W1VOfNj0Z1WJSL\\2b2]3[1UJ[LY2Y2b3\\1TJ]LZ2V2b3]1SJcLW2o1f3^1RJfLW2j1a3g1WJaLX2g1`3i1WJcLX2b1\\3Q2[J_LY2\\1^3V2XJdLU2U1c3X2WJfLT2Q1e3Z2VJgLU2m0e3]2SJnLS2e0j3]2nIUMW2=l3]2lIXMX2:l3^2fI`M]20o3_2cIcM^2LX4Y2YISNY2Cf4R2PI^NX2@h4R2oH`NY2]Oh4S2nHbNZ2YOi4U2lHdNZ2VOk4V2jHfNZ2ROn4X2gHjNY2lNQ5Z2eHlNZ2fNT5^2aHnN[2bNU5`2`HoN[2_NV5b2_HPO[2ZNY5f2\\HQO[2RN_5m2UHUOY2nMb5m2THWOY2fMi5S3nGXOY2cMj5U3mGYOY2QMZ6f3[G\\Ob<d0^C]O_1dLY8o3XF^O]1eLZ8m3XF@V1mL_8c3[F@R1QMc8_3[FAP1QMe8^3ZFCm0SMh8Z3ZFEl0SMi8X3[FF4jM`9`2\\FGOmMe9\\2\\FHMmM_OYNh9R4kFJLoM[O[Nk9l3nFKJ`NW9e1oFLHaNX9c1PGLFcNZ9a1PGLEdN[9`1PGNBfN[9\\1SGNAkNX9W1WGN@mNX9U1XGO]OQOX9P1[GO\\OVOU9k0_GO[OXOU9i0`G0YOZOU9f0bG1WO\\OU9c0eG0UO_OU9a0fGOVOBR9?hGNWODP9>jGLVOHo8<lGJUONl88PHHTO2k86QHHTO4i84SHHTO5h83SHJSO6h80UHKQO8h8MWHLoN9i8KXHZ4f7fKWH^4h7bKXH_4g7aKXHc4e7]KZHe4e7[KXHi4g7WKXHk4g7UKXHm4g7SKXHQ5e7oJXHW5e7iJZHX5f7hJXH[5g7eJXH]5g7cJXHa5e7_JYHe5e7[JZHg5e7YJZHm5a7SJ]HS6_7mI`HT6`7lI_HV6`7jI_HX6`7hI_H\\6^7\\4O1O1O1O1O1O1O3M1O1O1O1O1O3M1O1O1_No@aKQ?^4QAaKP?]4UA_Kl>a4SA_Kn>a4QA_KP?`4PA`KQ?_4o@aKT?]4l@nJ]O<h?e4k@mJ@=f?e4j@mJB=d?f4j@mJB=d?f4j@mJB=d?f4j@mJB=d?f4j@mJB=d?f4j@mJB=fVg4"
+          },
+          "bbox": [
+            579.2000122070312,
+            88.0,
+            808.0,
+            675.2000122070312
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "total_views": 3,
+    "total_masks": 3
+  }
+}

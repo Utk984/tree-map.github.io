@@ -27,9 +27,14 @@ src/
     ├── BaseMapSwitcher.tsx    # Base map type switching component
     └── ThreePanoramaViewer.tsx # Three.js-powered panorama viewer
 
+data/
+└── south_delhi/               # Area-based data structure
+    ├── trees.csv              # Tree detection data
+    ├── panoramas.csv          # Street view panorama data
+    └── masks/                 # Mask JSON files (79745 files)
+        └── *_masks.json
+
 public/
-├── south_delhi_trees.csv     # Tree detection data
-├── south_delhi_panoramas.csv # Street view panorama data
 └── tree.svg                  # Tree icon for markers
 
 Python Backend:
@@ -138,10 +143,17 @@ Press **Ctrl+C** in the terminal where `./start.sh` is running to gracefully sto
 
 ## 📊 Data
 
-The application processes two CSV files:
+The application uses an area-based data structure located in the `data/` directory:
 
-- **south_delhi_trees.csv**: Contains tree detection data with coordinates, confidence scores, and panorama references
-- **south_delhi_panoramas.csv**: Contains street view panorama locations and metadata
+```
+data/
+└── south_delhi/               # Area-specific data folder
+    ├── trees.csv              # Tree detection data with coordinates, confidence scores, and panorama references
+    ├── panoramas.csv          # Street view panorama locations and metadata
+    └── masks/                 # Mask JSON files for tree segmentation (79745 files)
+```
+
+This structure allows easy addition of new areas by creating new subfolders (e.g., `data/north_delhi/`) with the same file structure.
 
 ## 🛡️ API Integration
 
@@ -206,8 +218,9 @@ npm run preview
 
 ### CSV loading errors
 
-- Ensure CSV files are in the `public/` directory
-- Check that file names match exactly: `south_delhi_trees.csv` and `south_delhi_panoramas.csv`
+- Ensure CSV files are in the `data/south_delhi/` directory
+- Check that file names match exactly: `trees.csv` and `panoramas.csv`
+- Verify that the `masks/` folder exists in `data/south_delhi/`
 
 ### Dependency installation issues
 

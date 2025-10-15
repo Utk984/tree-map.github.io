@@ -1,0 +1,61 @@
+{
+  "pano_id": "noupRuLEvUW3CiAzLjuhcQ",
+  "views": {
+    "view_11": [
+      {
+        "tree_index": "0-0",
+        "image_path": "/home/utkarsh/TreeInventorization/data/views/noupRuLEvUW3CiAzLjuhcQ_view11_tree0_box0.jpg",
+        "confidence": 0.22851359844207764,
+        "mask_data": {
+          "orig_shape": [
+            720,
+            1024
+          ],
+          "encoding": "rle",
+          "rle": {
+            "size": [
+              720,
+              1024
+            ],
+            "counts": "[Wc2l1e0aNmb0_1S]OaNmb0_1S]OaNmb0_1S]OaNmb0_1S]OaNmb0_1S]OaNmb0]1U]OdNjb0\\1V]OdNjb0\\1V]OdNjb0\\1V]OdNjb0[1W]OeNib0[1Y]OcNgb0]1Y]OdNfb0\\1Z]OeNeb0\\1\\]ObNdb0^1\\]ObNdb0^1\\]ObNdb0^1\\]ObNdb0^1]]OaNcb0`1\\]O`Njb0[1U]OeNlb0[1S]OeNnb0[1Q]OeNob0\\1P]OdNQc0\\1n\\OdNSc0\\1k\\OeNVc0^1e\\OdN_c0T22N1O6J3N02ON1410NLfNRNT^OX2`a0kM^^OY2]a0hMa^OZ2^a0jM[^O]2aa0cM_^O^2`a0a1H:F1O4L1O1O3M1O2N1O1O2N1O1O5K0000000000000000000000000000`Mh_OcN]`0\\1e_ObN\\`0W1T@`Nl?_1V@`Nj?[1a@]Na?a1g@YNY?f1i@YNW?`1XAWNi>g1`AQNa>n1aAPN`>n1R3O1O1N2O1O1^Oi[OfN\\d0Y1f[OeN[d0Y1?O1K5N2O1M3O1O1O1O1O1O1O1O1O1O10006I1O1O1000000000ol[a0"
+          },
+          "bbox": [
+            118.4000015258789,
+            267.20001220703125,
+            232.0,
+            444.79998779296875
+          ]
+        }
+      },
+      {
+        "tree_index": "1-0",
+        "image_path": "/home/utkarsh/TreeInventorization/data/views/noupRuLEvUW3CiAzLjuhcQ_view11_tree0_box1.jpg",
+        "confidence": 0.1033252477645874,
+        "mask_data": {
+          "orig_shape": [
+            720,
+            1024
+          ],
+          "encoding": "rle",
+          "rle": {
+            "size": [
+              720,
+              1024
+            ],
+            "counts": "[nQc0R2^d00000000001O3M1O1O2N1O3M1O0000000J6VOY[OIid06Y[OHgd05i02M120K5I80N2O1O1O1O10000M3O1O1O1O1M3L4O1N2O1OPT_2"
+          },
+          "bbox": [
+            867.2000122070312,
+            337.6000061035156,
+            910.4000244140625,
+            412.79998779296875
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "total_views": 1,
+    "total_masks": 2
+  }
+}

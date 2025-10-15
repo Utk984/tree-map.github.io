@@ -1,0 +1,63 @@
+{
+  "pano_id": "S-SMooi6SOOYXoyiK9JL-g",
+  "views": {
+    "view_0": [
+      {
+        "tree_index": "0-0",
+        "image_path": "/home/utkarsh/TreeInventorization/data/views/S-SMooi6SOOYXoyiK9JL-g_view0_tree0_box1.jpg",
+        "confidence": 0.13746115565299988,
+        "mask_data": {
+          "orig_shape": [
+            720,
+            1024
+          ],
+          "encoding": "rle",
+          "rle": {
+            "size": [
+              720,
+              1024
+            ],
+            "counts": "a`hc0f0je000000000000000000000001O1O1O1O3M9G1O9F1O1L4O1K5N2O1N2O1J6H800K5L4O1I7O1_Na10000000000000000000iNU^OiMka0V2W^OiMia0P2_^OoMaa0m1c^OSN]a0l1d^OTN\\a0g1h^OTN^a0k1b^OUN_a0g1d^OUNaa0j1`^ORNda0m1\\^OSNea0i1^^OWNca0d1c^OZN^a0e1d^OYN]a0c1g^O\\NZa0c1g^O\\NZa0_1k^O`NVa0]1m^OdNRa0[1o^OfNPa0R1X_OQOe`0l0^_OUOa`0j0`_OVO``0i0a_OXO^`0g0c_OZO\\`0e0e_O[O[`0c0g_O^OX`0a0i_O@V`0?k_OAU`0>l_OBT`0=m_OCS`0<n_ODR`0;o_OEQ`08R@Hn?Cn]OOV2>l?BP^ONU2`0k?Bh@>X?Ai@?W?@j@`0V?@j@?W?Ai@>X?@k@?U?Ak@?U?Ak@>V?Bj@>V?Bj@>V?Bj@>V?Bk@=U?Cl@<T?Dl@<T?Dl@<T?Dl@<db000001O00000O2N2O00000000000000001O00O10M3M111J6L31000e9"
+          },
+          "bbox": [
+            899.2000122070312,
+            318.3999938964844,
+            1022.4000244140625,
+            464.0
+          ]
+        }
+      }
+    ],
+    "view_1": [
+      {
+        "tree_index": "1-0",
+        "image_path": "/home/utkarsh/TreeInventorization/data/views/S-SMooi6SOOYXoyiK9JL-g_view1_tree0_box0.jpg",
+        "confidence": 0.15222235023975372,
+        "mask_data": {
+          "orig_shape": [
+            720,
+            1024
+          ],
+          "encoding": "rle",
+          "rle": {
+            "size": [
+              720,
+              1024
+            ],
+            "counts": "kdd8_3Qc000000000001O1O1O1O3M3M006J00000000000000000000000000H8TMV_ONn`01T_OMm`01\\_OFf`09\\_OEe`08k2K5O1H]QR="
+          },
+          "bbox": [
+            393.6000061035156,
+            331.20001220703125,
+            428.79998779296875,
+            457.6000061035156
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "total_views": 2,
+    "total_masks": 2
+  }
+}

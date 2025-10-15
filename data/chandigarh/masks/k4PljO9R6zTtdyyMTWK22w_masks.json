@@ -1,0 +1,63 @@
+{
+  "pano_id": "k4PljO9R6zTtdyyMTWK22w",
+  "views": {
+    "view_1": [
+      {
+        "tree_index": "0-0",
+        "image_path": "/home/utkarsh/TreeInventorization/data/views/k4PljO9R6zTtdyyMTWK22w_view1_tree0_box2.jpg",
+        "confidence": 0.21222390234470367,
+        "mask_data": {
+          "orig_shape": [
+            720,
+            1024
+          ],
+          "encoding": "rle",
+          "rle": {
+            "size": [
+              720,
+              1024
+            ],
+            "counts": "f`[b0[2Ud0000000000O1O1M3K500G9O1K5aMUMTAP3l>QMRAP3n>XMZ@X3f?i10000000000000000000000000I7N2O1M3N2O1M3O1H8[Oe0O1E;L4O1N2O1M3K5O100O1O1M3O1M3L4O1O1L4O1N2O1M3O1O1M3M3O1O1O100O1O1O1O1O10000M3O1O1O1O1O1M3O1O1O1O1L=F2N3J5NV_R2"
+          },
+          "bbox": [
+            835.2000122070312,
+            318.3999938964844,
+            928.0,
+            496.0
+          ]
+        }
+      }
+    ],
+    "view_2": [
+      {
+        "tree_index": "1-0",
+        "image_path": "/home/utkarsh/TreeInventorization/data/views/k4PljO9R6zTtdyyMTWK22w_view2_tree0_box2.jpg",
+        "confidence": 0.23229363560676575,
+        "mask_data": {
+          "orig_shape": [
+            720,
+            1024
+          ],
+          "encoding": "rle",
+          "rle": {
+            "size": [
+              720,
+              1024
+            ],
+            "counts": "Xj\\6=Q19T1Eg?2U_O9T1Eg?2U_O9T1Eg?2U_O9T1Eg?2U_O9T1Eg?2T_O:U1Dg?2P_Of0Q1XOo?3o^Oe0R1XOo?4g^OP1T1nNT`02f^O`1h0^Nb`02e^Ob1g0^Nc`00e^Oc1b0dNh`0Jd^Od1c0bNi`0Kb^Oi1=_NQa0Ha^On19YNXa0I^^OP27YN[a0g2^^OZMba0g33H8O10000N200000000001O1O0^@bLR<^3mCcLS<b3ZBlMf=_50000000000000000000000000000000VIjAZ5V>aJRB\\5n=cJTB\\5l=^J`B\\5`=cJbB\\5^=cJhB0cNe4e>ZK^Cm1XOmNZ=UO`Cl1XOnNX=VOkCY1@nNm<JSDb0j>_OVA?k>AWA<j>DWA;i>EXA9i>GXA7i>JWA4j>LWA3i>MXA1i>OXAOi>1XANh>2YAMg>3YALh>3ZALf>3\\ALd>3^ALb>3`AKa>4aAJ`>6`AJ`>6`AJ`>6`AJ`>6`AJ`>6`AJ`>6`AJXoY>"
+          },
+          "bbox": [
+            291.20001220703125,
+            216.0,
+            372.79998779296875,
+            464.0
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "total_views": 2,
+    "total_masks": 2
+  }
+}

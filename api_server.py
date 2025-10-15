@@ -26,6 +26,7 @@ import base64
 import json
 from panorama_fetcher import PanoramaFetcher
 from mask_processor import MaskProcessor
+import config
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -46,8 +47,9 @@ THREAD_POOL = ThreadPoolExecutor(max_workers=4)
 def load_csv_data():
     """Load the CSV data once at startup."""
     global csv_data
-    csv_path = "public/south_delhi_trees.csv"
+    csv_path = config.get_trees_csv_path()
     logger.info(f"Loading CSV data from {csv_path}")
+    logger.info(f"Current area: {config.CURRENT_AREA} - {config.AREAS[config.CURRENT_AREA]['name']}")
     csv_data = pd.read_csv(csv_path)
     logger.info(f"Loaded {len(csv_data)} rows from CSV")
     return csv_data
@@ -156,7 +158,7 @@ def get_streetview_data():
     """Get preprocessed street view data for the map."""
     try:
         # Load street view data
-        sv_path = "public/south_delhi_panoramas.csv"
+        sv_path = config.get_panoramas_csv_path()
         sv_data = pd.read_csv(sv_path)
         
         # Filter and convert data efficiently
@@ -250,7 +252,7 @@ def get_mask_data(pano_id):
         logger.info(f"🎭 Fetching mask data for pano_id: {pano_id}")
         
         # Construct the mask file path
-        mask_file_path = Path("masks") / f"{pano_id}_masks.json"
+        mask_file_path = config.get_mask_file_path(pano_id)
         
         if not mask_file_path.exists():
             logger.warning(f"⚠️ Mask file not found: {mask_file_path}")
@@ -273,18 +275,23 @@ if __name__ == '__main__':
     initialize_processors()
     
     # Create output directory for API-generated views
-    Path("data/api_views").mkdir(parents=True, exist_ok=True)
+    config.API_VIEWS_DIR.mkdir(parents=True, exist_ok=True)
     
     # Run the Flask server
     print("\n" + "="*60)
     print("🌳 TREE VIEW API SERVER")
     print("="*60)
+    print(f"📍 Area: {config.CURRENT_AREA} - {config.AREAS[config.CURRENT_AREA]['name']}")
     print(f"✅ Loaded {len(csv_data)} tree records")
-    print(f"🚀 Starting server on http://localhost:5001")
+    print(f"🚀 Starting server on http://localhost:{config.API_PORT}")
     print("="*60)
     print("\nAPI Endpoints:")
     print("  GET /api/tree-info/<csv_index> - Get tree information")
+    print("  GET /api/tree-data - Get all tree data")
+    print("  GET /api/streetview-data - Get street view data")
+    print("  GET /api/panorama/<pano_id> - Get panorama with masks")
+    print("  GET /api/mask-data/<pano_id> - Get mask data")
     print("  GET /health - Health check")
     print("="*60 + "\n")
     
-    app.run(debug=False, host='0.0.0.0', port=5001, threaded=True)
+    app.run(debug=config.API_DEBUG, host=config.API_HOST, port=config.API_PORT, threaded=True)
